@@ -8,8 +8,7 @@ on:
 
 jobs:
   build:
-
-    runs-on: fedora-latest
+    runs-on: fedora-latest, ubuntu-latest
     strategy:
       max-parallel: 4
       matrix:
